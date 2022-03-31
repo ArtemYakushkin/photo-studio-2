@@ -1,0 +1,31 @@
+.photo-2 {
+  background-image: url(../images/photo-2-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+  padding-top: 260px;
+  padding-bottom: 40px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 298px;
+    margin-left: auto;
+    margin-right: 60px;
+    margin-bottom: 207px;
+  }
+
+  &__title {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 1.43;
+    color: #c0c0c0;
+  }
+}

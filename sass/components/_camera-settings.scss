@@ -1,0 +1,76 @@
+.camera-settings {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 40px;
+
+  &__exposure {
+    font-size: 12px;
+    line-height: 1;
+    color: #ffffff;
+    margin-right: 18px;
+    padding-right: 18px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(/images/exposure-icon.svg);
+      width: 16px;
+      height: 16px;
+      left: -22px;
+      top: 0;
+    }
+  }
+
+  &__focus {
+    font-size: 12px;
+    line-height: 1;
+    color: #ffffff;
+    margin-right: 27px;
+    padding-right: 27px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(/images/focus-icon.svg);
+      width: 16px;
+      height: 16px;
+      left: -22px;
+      top: 0;
+    }
+  }
+
+  &__iso {
+    font-size: 12px;
+    line-height: 1;
+    color: #ffffff;
+    margin-right: 16px;
+    padding-right: 16px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(/images/iso-icon.svg);
+      width: 32px;
+      height: 16px;
+      left: -38px;
+      top: 0;
+    }
+  }
+
+  &__location {
+    font-size: 12px;
+    line-height: 1;
+    color: #ffffff;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: url(/images/location-icon.svg);
+      width: 10px;
+      height: 16px;
+      left: -16px;
+      top: 0;
+    }
+  }
+}

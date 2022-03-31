@@ -1,0 +1,63 @@
+.tools {
+  display: flex;
+
+  &__left {
+    width: 50%;
+    padding-top: 173px;
+    padding-left: 100px;
+    margin-right: 60px;
+  }
+
+  &__pre-title {
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c0c0c0;
+    margin-bottom: 6px;
+  }
+
+  &__title {
+    font-size: 28px;
+    line-height: 1.14;
+    margin-bottom: 14px;
+  }
+
+  &__text {
+    font-size: 14px;
+    line-height: 1.43;
+    max-width: 514px;
+    margin-bottom: 20px;
+  }
+
+  &__btn {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding: 9px 10px 13px 42px;
+    background: #ffffff;
+    border-radius: 14px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      background: #000000;
+      width: 32px;
+      height: 32px;
+      border-radius: 14px;
+      top: 5px;
+      left: 4px;
+    }
+  }
+
+  &__right {
+    background-image: url(../images/tools-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 540px;
+    width: 50%;
+    padding-top: 484px;
+  }
+}
