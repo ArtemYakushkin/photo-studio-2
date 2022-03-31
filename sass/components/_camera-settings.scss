@@ -14,7 +14,7 @@
     &::before {
       content: "";
       position: absolute;
-      background-image: url(/images/exposure-icon.svg);
+      background-image: url(../images/exposure-icon.svg);
       width: 16px;
       height: 16px;
       left: -22px;
@@ -32,7 +32,7 @@
     &::before {
       content: "";
       position: absolute;
-      background-image: url(/images/focus-icon.svg);
+      background-image: url(../images/focus-icon.svg);
       width: 16px;
       height: 16px;
       left: -22px;
@@ -50,7 +50,7 @@
     &::before {
       content: "";
       position: absolute;
-      background-image: url(/images/iso-icon.svg);
+      background-image: url(../images/iso-icon.svg);
       width: 32px;
       height: 16px;
       left: -38px;
@@ -66,7 +66,7 @@
     &::before {
       content: "";
       position: absolute;
-      background-image: url(/images/location-icon.svg);
+      background-image: url(../images/location-icon.svg);
       width: 10px;
       height: 16px;
       left: -16px;
